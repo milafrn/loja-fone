@@ -18,3 +18,10 @@ essa tag junto com o atributo `href`. Exemplo de um `a` que o usuário
 ```
 <a href="http://collabcode.training">CollabCode.Training</a>
 ```
+
+
+
+# CSS
+É uma linguagem de estilo, isso quer dizer que ela tem as seguintes responsabilidades:
+
+- Visual;
