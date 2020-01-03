@@ -1,0 +1,36 @@
+.description-store {
+  color: #fff;
+}
+
+.description-store.-title {
+  font-size: 25px;
+  font-family: "Roboto";
+  margin-bottom: 100px;
+}
+
+.details {
+  font-size: 20px;
+}
+
+.details.-primary {
+  margin-bottom: 28px;
+}
+
+.details.-secondary {
+  margin-bottom: 26px;
+}
+
+.details.-tertiary {
+  margin-bottom: 73px;
+}
+
+.text {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+  margin-bottom: 100px;
+}
