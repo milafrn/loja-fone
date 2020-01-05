@@ -5,7 +5,12 @@
 
 .description-product > .title {
   font-size: 25px;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
+}
+
+.description-product > .stars {
+  margin-left: 9px;
+  margin-bottom: 25px;
 }
 
 .description-product > .item {
