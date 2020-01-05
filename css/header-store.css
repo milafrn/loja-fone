@@ -19,6 +19,22 @@
   float: right;
 }
 
+.header-store .busca {
+  padding-bottom: 8px;
+  padding-left: 5px;
+  margin-right: 100px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #e24647;
+  width: 300px;
+  border: none;
+  border-bottom: 2px solid #fff;
+}
+
+.header-store .busca::placeholder {
+  color: #fff;
+}
+
 .header-store .action {
   text-decoration: none;
   color: inherit;
