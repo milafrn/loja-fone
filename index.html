@@ -5,11 +5,13 @@
     <title>Loja de Fone</title>
 
     <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/base.css" />
     <link rel="stylesheet" href="css/container-store.css" />
     <link rel="stylesheet" href="css/header-store.css" />
+    <link rel="stylesheet" href="css/photo-product.css" />
+    <link rel="stylesheet" href="css/wrap-product.css" />
+    <link rel="stylesheet" href="css/description-product.css" />
     <link rel="stylesheet" href="css/button-store.css" />
-    <link rel="stylesheet" href="css/description-store.css" />
-    <link rel="stylesheet" href="css/fone-store.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Roboto:300,400,700"
       rel="stylesheet"
@@ -19,43 +21,46 @@
   <body>
     <div class="container-store">
       <header class="header-store">
-        <h1 class="title">LOGO</h1>
+        <h1 class="title">Logo</h1>
 
         <nav class="navigation">
           <a class="action" href="http://collabcode.training">Produtos</a>
           <a class="action" href="http://collabcode.training">Serviços</a>
-          <a class="action last" href="http://collabcode.training"
+          <a class="action -last" href="http://collabcode.training"
             >Carrinho (10)</a
           >
         </nav>
       </header>
 
-      <div class="fone-store">
-        <img src="fone.png" alt="" />
-      </div>
+      <figure class="photo-product">
+        <img src="img/fone.png" alt="fone de ouvido" />
+      </figure>
 
-      <dl class="description-store">
-        <dt class="description-store -title">Fone top, feliz e caro</dt>
+      <section class="wrap-product">
+        <dl class="description-product">
+          <dt class="title">Fone top, feliz e caro</dt>
 
-        <dd class="details -primary">4.0 (97)</dd>
-        <dd class="details -secondary">FRETE C$ 108</dd>
-        <dd class="details -tertiary">PREÇO C$ 340</dd>
-        <dd class="text">
-          Fone TOP com um cor feliz que não tem fio. A cor também é algo que
-          impressiona junto com o seu layout modernão! Ele é caro? É! Mas compre
-          que você não vai se arrepender e se você se arrepender pode vender no
-          mercado livre .. kkkk
-        </dd>
+          <dd class="item">4.0 (97)</dd>
+          <dd class="item -info">
+            <strong class="contrast">FRETE</strong> C$ 108
+          </dd>
+          <dd class="item -info -last">
+            <strong class="contrast">PREÇO</strong> C$ 340
+          </dd>
+          <dd class="text">
+            Fone TOP com um cor feliz que não tem fio. A cor também é algo que
+            impressiona junto com o seu layout modernão! Ele é caro? É! Mas
+            compre que você não vai se arrepender e se você se arrepender pode
+            vender no mercado livre .. kkkk
+          </dd>
 
-        <dd class="text"><a href="#" class="link">Saber mais ...</a></dd>
-
-        <dd class="container-button">
-          <button class="button-store -second">Adiciona no carrinho</button>
-        </dd>
-        <dd class="container-button">
-          <a class="button-store" href="comprar.html">Comprar</a>
-        </dd>
-      </dl>
+          <dd class="text">
+            <a href="#" class="action">Saber mais ...</a>
+          </dd>
+        </dl>
+      </section>
+      <button class="button-store -second">Adiciona no carrinho</button>
+      <a class="button-store" href="comprar.html">Comprar</a>
     </div>
   </body>
 </html>
