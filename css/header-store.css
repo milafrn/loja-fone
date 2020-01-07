@@ -19,19 +19,20 @@
   float: right;
 }
 
-.header-store .busca {
-  padding-bottom: 8px;
-  padding-left: 5px;
-  margin-right: 100px;
-  font-size: 20px;
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #e24647;
-  width: 300px;
+.header-store [type="search"] {
+  background-color: transparent;
   border: none;
   border-bottom: 2px solid #fff;
+  color: inherit;
+  font-family: Arial, "Roboto", sans-serif;
+  font-size: 20px;
+  padding: 8px;
+  width: 358px;
+  margin-right: 65px;
+  outline: none;
 }
 
-.header-store .busca::placeholder {
+.header-store input[type="search"]::placeholder {
   color: #fff;
 }
 
