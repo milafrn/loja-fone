@@ -20,9 +20,17 @@
   left: -47px;
 }
 
+.description-product > .heart:hover {
+  transform: translateX(-100%) scale(1.1);
+}
+
 .description-product > .item.-star {
   margin-bottom: 10px;
   cursor: pointer;
+}
+
+.description-product > .item.-star > img:hover {
+  transform: scale(1.1);
 }
 
 .description-product > .item.-star + .item {
