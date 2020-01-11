@@ -41,6 +41,11 @@
   text-decoration: none;
   color: inherit;
   margin-right: 60px;
+  padding-bottom: 8px;
+}
+
+.header-store .action:hover {
+  border-bottom: 2px solid #fff;
 }
 
 .header-store .action.-last {
