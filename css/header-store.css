@@ -38,14 +38,22 @@
 }
 
 .header-store .action {
+  display: inline-block;
   text-decoration: none;
   color: inherit;
   margin-right: 60px;
-  padding-bottom: 8px;
 }
 
-.header-store .action:hover {
-  border-bottom: 2px solid #fff;
+.header-store .action::after {
+  content: '';
+  display: block;
+  width: 0;
+  transition: width 1s;
+}
+
+.header-store .action:hover::after{
+  width: 100%;
+  border-bottom: 1px solid #fff;
 }
 
 .header-store .action.-last {
