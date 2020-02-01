@@ -14,9 +14,12 @@ function handleclick() {
   console.log("ae");
 }
 
-const $second = document.querySelector(".-second");
-console.log($second);
+const $buttonAdicionaCarrinho = document.querySelector(".button-store.-second");
+const $carrinho = document.querySelector(".action.-last");
+console.log($buttonAdicionaCarrinho);
 
-$second.addEventListener("click", () => {
+$buttonAdicionaCarrinho.addEventListener("click", () => {
   console.log("AE");
+
+  $carrinho.innerHTML = "Carrinho(TOP)";
 });
