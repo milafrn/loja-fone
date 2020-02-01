@@ -16,3 +16,7 @@ function handleclick() {
 
 const $second = document.querySelector(".-second");
 console.log($second);
+
+$second.addEventListener("click", () => {
+  console.log("AE");
+});
