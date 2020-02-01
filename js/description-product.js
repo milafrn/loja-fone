@@ -13,3 +13,6 @@ $heart.addEventListener("click", handleclick);
 function handleclick() {
   console.log("ae");
 }
+
+const $second = document.querySelector(".-second");
+console.log($second);
