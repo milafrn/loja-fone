@@ -1,25 +1,22 @@
-/*
-1 - Ter a janela (browser) na mão => OK
-2 - Ter o HTML na mão => Ok
-3 - Pegar o coração => OK
-4 - Pegar clique no coração
-5 - No momento que o usuário clicar, nós queremos mostrar um texto AE
- */
-
 const $heart = window.document.querySelector(".-heart");
+const $stars = document.querySelectorAll(".icon.-star");
+console.log($stars[0].src);
+$heart.addEventListener("click", handleClick);
 
-$heart.addEventListener("click", handleclick);
-
-function handleclick() {
-  console.log("ae");
+function handleClick() {
+  $heart.classList.toggle("-active");
 }
 
-const $buttonAdicionaCarrinho = document.querySelector(".button-store.-second");
-const $carrinho = document.querySelector(".action.-last");
-console.log($buttonAdicionaCarrinho);
+function changeStarImage(event) {
+  const element = event.target;
+  element.classList.toggle("-active");
+  if (element.classList.contains("-active")) {
+    element.setAttribute("src", "img/Star-active.png");
+  } else {
+    element.setAttribute("src", "img/Star.png");
+  }
+}
 
-$buttonAdicionaCarrinho.addEventListener("click", () => {
-  console.log("AE");
-
-  $carrinho.innerHTML = "Carrinho(TOP)";
-});
+for (let star of $stars) {
+  star.addEventListener("click", changeStarImage);
+}

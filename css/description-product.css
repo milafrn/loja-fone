@@ -24,6 +24,7 @@
 .description-product > .item.-star {
   margin-bottom: 10px;
   cursor: pointer;
+  background: url(../img/Star.png) no-repeat;
 }
 
 .description-product .icon {
