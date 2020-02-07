@@ -112,6 +112,12 @@
   .description-product > .item.-number {
     padding-top: 4px;
   }
+
+  .description-product > .item.-heart {
+    position: relative;
+    left: 30px;
+    top: -10px;
+  }
 }
 
 @media (max-width: 720px) {
