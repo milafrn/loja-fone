@@ -106,6 +106,10 @@
     background-color: #fff;
     color: #000;
     transition: transform 200ms linear;
+    background-image: url(../img/search.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: 98%;
   }
   .header-store .-active[type="search"] {
     transition: transform cubic-bezier(0, 0, 0.96, 1.26);
