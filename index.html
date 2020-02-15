@@ -5,18 +5,20 @@
     <meta name="viewport" content="width=device-width" />
     <title>Loja de Fone</title>
 
-    <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/base.css" />
-    <link rel="stylesheet" href="css/container-store.css" />
-    <link rel="stylesheet" href="css/header-store.css" />
-    <link rel="stylesheet" href="css/photo-product.css" />
-    <link rel="stylesheet" href="css/wrap-product.css" />
-    <link rel="stylesheet" href="css/description-product.css" />
-    <link rel="stylesheet" href="css/button-store.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Roboto:300,400,700"
       rel="stylesheet"
     />
+
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/container-store.css" />
+    <link rel="stylesheet" href="css/header-store.css" />
+    <link rel="stylesheet" href="css/input-search.css" />
+    <link rel="stylesheet" href="css/photo-product.css" />
+    <link rel="stylesheet" href="css/wrap-product.css" />
+    <link rel="stylesheet" href="css/description-product.css" />
+    <link rel="stylesheet" href="css/button-store.css" />
   </head>
 
   <body>
@@ -25,7 +27,16 @@
         <h1 class="title">Logo</h1>
 
         <nav class="navigation">
-          <input type="search" placeholder="Buscar" />
+          <form class="input-search">
+            <input class="content" type="search" placeholder="Buscar" /><!--
+            --><input
+              type="image"
+              class="icon -open -active"
+              src="img/search.png"
+            /><!--
+            --><input type="image" class="icon -close" src="img/close.svg" />
+          </form>
+
           <a class="action" href="http://collabcode.training">Produtos</a>
           <a class="action" href="http://collabcode.training">Serviços</a>
           <a class="action -last" href="http://collabcode.training"
@@ -118,6 +129,6 @@
 
     <script src="js/description-product.js"></script>
     <script src="js/home.js"></script>
-    <script src="js/header-store.js"></script>
+    <script src="js/input-search.js"></script>
   </body>
 </html>
