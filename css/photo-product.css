@@ -5,6 +5,18 @@
   vertical-align: middle;
   border-radius: 0 150px 150px 0;
   margin-right: 157px;
+  padding-left: 100px;
+  position: relative;
+}
+
+.photo-product::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  z-index: -1;
+  transform: translateX(-100%);
 }
 
 @media (max-width: 1325px) {
