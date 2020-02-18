@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="css/container-store.css" />
     <link rel="stylesheet" href="css/header-store.css" />
     <link rel="stylesheet" href="css/input-search.css" />
-    <link rel="stylesheet" href="css/menu-actions.css" />
+    >
     <link rel="stylesheet" href="css/photo-product.css" />
     <link rel="stylesheet" href="css/wrap-product.css" />
     <link rel="stylesheet" href="css/description-product.css" />
@@ -37,20 +37,21 @@
             /><!--
             --><input type="image" class="icon -close" src="img/close.svg" />
           </form>
-          <nav class="menu-actions">
-            <button class="menu-hamburguer">
-              <span></span>
-              <span></span>
-              <span></span>
-            </button>
-            <ul class="navilist">
+
+          <ul id="menu" class="list">
+            <li class="item -menu"><a href="#menu" class="menu">Menu</a></li>
+            <li class="item">
               <a class="action" href="http://collabcode.training">Produtos</a>
+            </li>
+            <li class="item">
               <a class="action" href="http://collabcode.training">Serviços</a>
-              <a class="action -last" href="http://collabcode.training"
+            </li>
+            <li class="item -last">
+              <a class="action" href="http://collabcode.training"
                 >Carrinho (10)</a
               >
-            </ul>
-          </nav>
+            </li>
+          </ul>
         </nav>
       </header>
 
@@ -136,9 +137,9 @@
       </section>
     </div>
 
+    <script src="js/header-store.js"></script>
+    <script src="js/input-search.js"></script>
     <script src="js/description-product.js"></script>
     <script src="js/home.js"></script>
-    <script src="js/input-search.js"></script>
-    <script src="js/menu-hamburguer.js"></script>
   </body>
 </html>
